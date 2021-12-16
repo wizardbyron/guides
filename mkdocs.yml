@@ -1,1 +1,60 @@
-site_name: My Docs
+site_name: 顾宇的实践指南
+theme: 
+  name: material
+  locale: zh
+  highlightjs: true
+
+nav:
+  - 主页: index.md
+  - 架构:
+    - 业务架构: blank.md
+    - 应用架构: blank.md
+    - 数据架构: blank.md
+    - 信息架构: blank.md
+  - 领域驱动设计(DDD):
+    - 战术建模: blank.md
+    - 战略建模: blank.md
+  - SAFe:
+    - 活动: 
+      - 产品增量计划(PI): blank.md
+      - 迭代(Iteration): 
+        - 1. 代办事项梳理会: SAFe/events/iteration/backlog-refinment.md
+        - 2. 迭代规划会: SAFe/events/iteration/iteration-planning.md
+        - 3. 每日站立会议: SAFe/events/iteration/daily-standup.md
+        - 4. 迭代评审会: SAFe/events/iteration/review.md
+        - 5. 回顾会: SAFe/events/iteration/retrospective.md
+    - 角色:
+      - 敏捷发布火车: blank.md
+      - 团队: 
+        - Scrum Master: SAFe/roles/agile-team/scrum-master.md
+        - Agile Team: SAFe/roles/agile-team/agile-team.md
+  - DevOps:
+    - 流程:
+      - 架构规划: blank.md
+      - 需求分析: blank.md
+      - 设计: blank.md
+      - 开发: blank.md
+      - 测试: blank.md
+      - 部署和发布: blank.md
+      - 运维: blank.md
+    - 专题:
+      - 代码分支: blank.md
+  - 知识库:
+    - 编程语言:
+      - Java: blank.md
+      - Python: blank.md
+      - Go: blank.md
+    - 容器:
+      - Docker: blank.md
+      - Kubernetes: blank.md
+    - 操作系统:
+      - Linux: blank.md
+    - 网络:
+      - TCP/IP: blank.md
+    - 云计算:
+      - AWS: blank.md
+      - Azure: blank.md
+      - GCP: blank.md
+      - 阿里云: blank.md
+      - 腾讯云: blank.md
+  - 关于: about.md

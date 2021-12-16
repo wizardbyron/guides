@@ -1,17 +1,7 @@
-# Welcome to MkDocs
+# 欢迎来到我的实践指南
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+本文档是我的实践指南，这里用于积累我在学习和实践中的知识。
 
-## Commands
+大量的内容等待更新。
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+本文档使用 [MkDocs](https://www.mkdocs.org) 创建，采用 [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/)作为主题。
