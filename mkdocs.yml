@@ -14,6 +14,7 @@ nav:
   - 领域驱动设计(DDD):
     - 战术建模: blank.md
     - 战略建模: blank.md
+    - 事件风暴: ddd/event-storming.md
   - SAFe:
     - 活动: 
       - 产品增量计划(PI): blank.md
