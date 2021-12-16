@@ -27,10 +27,18 @@ python3 -m pip install --user -r requirement.txt
 
 #### 1. 通过 `pip freeze` 生成（不推荐）
 
+`pip freeze`会生成当前系统所有安装的包，在非`virtualenv`的环境下请不要使用。
+
 ```shell
 pip freeze > requirements.txt
 ```
 
 #### 2. 通过 `pipreqs` 生成
 
-`pipreqs` 通过读取当前工程下所有 python 文件的 import 信息来生成 `requirements.txt` 文件。在使用之前要通过`pip`安装。
+`pipreqs`通过读取当前工程下所有 python 文件的 import 信息来生成 `requirements.txt` 文件。在使用之前要通过`pip`安装。
+
+```shell
+pipreqs <工程根目录>
+```
+
+详情可以参考官方文档<https://github.com/bndr/pipreqs>
