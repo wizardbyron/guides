@@ -27,7 +27,7 @@ nav:
       - 敏捷发布火车: blank.md
       - 团队: 
         - Scrum Master: SAFe/roles/agile-team/scrum-master.md
-        - Agile Team: SAFe/roles/agile-team/agile-team.md
+        - 敏捷团队: SAFe/roles/agile-team/agile-team.md
   - DevOps:
     - 流程:
       - 架构规划: blank.md
