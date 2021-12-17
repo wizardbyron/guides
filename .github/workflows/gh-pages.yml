@@ -1,22 +1,21 @@
-name: github pages
+name: deploy to github pages
 
 on:
   push:
     branches:
       - main  # Set a branch to deploy
-  pull_request:
 
 jobs:
   deploy:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+      - uses: actions/setup-python@v2
         with:
-          submodules: true  # Fetch Hugo themes (true OR recursive)
-          fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
-
-      - name: Setup mkdocs and theme
-        run: python3 -m pip install --user -r requirements.txt 
-
-      - name: Build & Deploy
-        run: mkdocs gh-deploy
+          python-version: 3.x
+      - uses: actions/cache@v2
+        with:
+          key: ${{ github.ref }}
+          path: .cache
+      - run: pip install mkdocs-material
+      - run: mkdocs gh-deploy --force
