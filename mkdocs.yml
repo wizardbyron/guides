@@ -60,7 +60,7 @@ nav:
       - Docker: blank.md
       - Kubernetes: blank.md
     - 操作系统:
-      - Linux: blank.md
+      - Linux: linux/index.md
     - 网络:
       - TCP/IP: blank.md
     - 云计算:
