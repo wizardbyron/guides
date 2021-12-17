@@ -1,8 +1,24 @@
 site_name: 顾宇的实践指南
 theme: 
   name: material
-  locale: en
+  locale: zh_CN
+  language: zh
   highlightjs: true
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/weather-sunny
+        name: 切换至夜间模式
+    - scheme: slate
+      toggle:
+        icon: material/weather-night
+        name: 切换至明亮模式
+  features:
+    - navigation.sections
+
+plugins:
+  - search:
+      lang: zh
 
 nav:
   - 主页: index.md
