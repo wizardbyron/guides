@@ -1,7 +1,6 @@
 site_name: 顾宇的实践指南
 theme: 
   name: material
-  locale: en
   language: zh
   highlightjs: true
   palette:
