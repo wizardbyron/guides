@@ -54,7 +54,7 @@ nav:
   - 知识库:
     - 编程语言:
       - Java: blank.md
-      - Python: programming/python/index.md
+      - Python: python/index.md
       - Go: blank.md
     - 容器:
       - Docker: blank.md
