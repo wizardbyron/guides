@@ -59,8 +59,9 @@ nav:
     - 容器:
       - Docker: blank.md
       - Kubernetes: blank.md
-    - 操作系统:
-      - Linux: linux/index.md
+    - Linux:
+      - FHS: linux/fhs.md
+      - 命令: linux/command.md
     - 网络:
       - TCP/IP: blank.md
     - 云计算:
