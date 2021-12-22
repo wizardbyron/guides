@@ -17,14 +17,7 @@ theme:
 
 nav:
   - 主页: index.md
-  - 架构:
-    - 业务架构: blank.md
-    - 应用架构: blank.md
-    - 数据架构: blank.md
-    - 信息架构: blank.md
   - 领域驱动设计(DDD):
-    - 战术建模: blank.md
-    - 战略建模: blank.md
     - 事件风暴: ddd/event-storming.md
   - SAFe:
     - 活动: 
@@ -36,38 +29,47 @@ nav:
         - 4. 迭代评审会: SAFe/events/iteration/review.md
         - 5. 回顾会: SAFe/events/iteration/retrospective.md
     - 角色:
-      - 敏捷发布火车: blank.md
-      - 团队: 
+      # - 敏捷发布火车: blank.md
+      - 敏捷团队: 
         - Scrum Master: SAFe/roles/agile-team/scrum-master.md
         - 敏捷团队: SAFe/roles/agile-team/agile-team.md
-  - DevOps:
-    - 流程:
-      - 架构规划: blank.md
-      - 需求分析: blank.md
-      - 设计: blank.md
-      - 开发: blank.md
-      - 测试: blank.md
-      - 部署和发布: blank.md
-      - 运维: blank.md
-    - 专题:
-      - 代码分支: blank.md
+  - DevOps: blank.md
+    # - 流程阶段:
+    #   - 架构规划: blank.md
+    #   - 需求分析: blank.md
+    #   - 设计: blank.md
+    #   - 开发: blank.md
+    #   - 测试: blank.md
+    #   - 部署和发布: blank.md
+    #   - 运维: blank.md
+    # - 专题:
+    #   - 代码分支: blank.md
+    # - 落地指南: 
+    #   - 开始之前: blank.md
+    #   - 分析组织上下文: blank.md
+    #   - 分析技术上下文: blank.md
+    #   - 制定 DevOps 转型策略: blank.md
+    #   - 使用看板和 DevOps 故事: blank.md
+    #   - 开发驱动的 DevOps 转型: blank.md
+    #   - 运维驱动的 DevOps 转型: blank.md
+    #   - 构建 DevOps 团队: blank.md
   - 知识库:
     - 编程语言:
-      - Java: blank.md
+      # - Java: blank.md
       - Python: python/index.md
-      - Go: blank.md
-    - 容器:
-      - Docker: blank.md
-      - Kubernetes: blank.md
+      # - Go: blank.md
+    # - 容器:
+    #   - Docker: blank.md
+    #   - Kubernetes: blank.md
     - Linux:
       - FHS: linux/fhs.md
       - 命令: linux/command.md
-    - 网络:
-      - TCP/IP: blank.md
-    - 云计算:
-      - AWS: blank.md
-      - Azure: blank.md
-      - GCP: blank.md
-      - 阿里云: blank.md
-      - 腾讯云: blank.md
+    # - 网络:
+    #   - TCP/IP: blank.md
+    # - 云计算:
+    #   - AWS: blank.md
+    #   - Azure: blank.md
+    #   - GCP: blank.md
+    #   - 阿里云: blank.md
+    #   - 腾讯云: blank.md
   - 关于: about.md
