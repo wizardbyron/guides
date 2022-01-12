@@ -32,6 +32,26 @@ IOPS 测试工具：<https://fio.readthedocs.io/en/latest/fio_doc.html>
 
 ### firewalld - 查看/修改防火墙规则
 
+### lsof (list open files)
+
+查找端口被占用进程:
+
+```shell
+lsof -i:<端口号>
+```
+
+### netstat
+
+centos 安装：`net-tools`
+
+查找端口被占用进程:
+
+```shell
+netstat -tunlp|grep <端口号>
+```
+
+### nslookup
+
 ## 文本处理
 
 ### tee - 从标准输入读入并从标准输出写出
