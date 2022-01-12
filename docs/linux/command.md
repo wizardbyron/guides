@@ -18,7 +18,8 @@
 
 ### du - 查看磁盘空间使用情况
 
-- 检查磁盘使用情况并排序：```du -sh * | sort -rh```
+- 检查磁盘使用情况并排序：`du -sh * | sort -rh`
+- 检查文件大小:`du -h <文件名>`
 
 ### fio - 测试磁盘性能
 
@@ -64,6 +65,12 @@ netstat -tunlp|grep <端口号>
 
 ``` shell
 awk '{print $1}'
+```
+
+保存 Kubernetes 镜像
+
+``` shell
+docker save $(docker images|grep "k8s.gcr.io"|awk '{print $3}') > k8s-images.tar
 ```
 
 ### xargs - 组合命令工具
