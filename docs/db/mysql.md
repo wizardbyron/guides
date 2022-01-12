@@ -1,5 +1,11 @@
 # MySQL
 
+## MySQL 副本
+
+### MySQL Group Replication调研剖析-MySQL复制的三种模式
+
+<https://juejin.cn/post/6994980948865450020>
+
 ## GTID
 
 GTID 实现原理
@@ -10,7 +16,6 @@ GTID 实现原理
 
 <http://blog.itpub.net/31429259/viewspace-2643665/>
 
+### GTID复制错误的修复
 
-### 
-
-<https://juejin.cn/post/6994980948865450020>
+<https://cloud.tencent.com/developer/article/1426613>
