@@ -60,6 +60,12 @@ netstat -tunlp|grep <端口号>
 
 ### awk - 模式识别处理语言
 
+显示列数据
+
+``` shell
+awk '{print $1}'
+```
+
 ### xargs - 组合命令工具
 
 ### wc - 统计文件的行数，词数，字符数，字节数
