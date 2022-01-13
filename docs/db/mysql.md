@@ -19,3 +19,7 @@ GTID 实现原理
 ### GTID复制错误的修复
 
 <https://cloud.tencent.com/developer/article/1426613>
+
+### GTID 不支持 create table select
+
+创建表要提交事务，导致不一致。

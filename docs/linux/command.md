@@ -1,10 +1,14 @@
-# Linux 工具&命令
+# Linux 命令
 
 ## 用户/组
 
 ## 进程
 
 ### ps
+
+查看进程使用资源情况
+
+<https://linux265.com/news/3818.html>
 
 ### pstree
 
@@ -18,8 +22,17 @@
 
 ### du - 查看磁盘空间使用情况
 
-- 检查磁盘使用情况并排序：`du -sh * | sort -rh`
-- 检查文件大小:`du -h <文件名>`
+- 检查磁盘使用情况并排序：
+
+```shell
+du -sh * | sort -rh
+```
+
+- 检查文件大小:
+
+``` shell
+du -h <文件名>
+```
 
 ### fio - 测试磁盘性能
 
@@ -35,7 +48,7 @@ IOPS 测试工具：<https://fio.readthedocs.io/en/latest/fio_doc.html>
 
 ### lsof (list open files)
 
-查找端口被占用进程:
+- 查找端口被占用进程:
 
 ```shell
 lsof -i:<端口号>
@@ -45,7 +58,7 @@ lsof -i:<端口号>
 
 centos 安装：`net-tools`
 
-查找端口被占用进程:
+- 查找端口被占用进程:
 
 ```shell
 netstat -tunlp|grep <端口号>
@@ -61,13 +74,13 @@ netstat -tunlp|grep <端口号>
 
 ### awk - 模式识别处理语言
 
-显示列数据
+- 显示列数据
 
 ``` shell
 awk '{print $1}'
 ```
 
-保存 Kubernetes 镜像
+- 保存 Kubernetes 镜像
 
 ``` shell
 docker save $(docker images|grep "k8s.gcr.io"|awk '{print $3}') > k8s-images.tar
