@@ -34,6 +34,8 @@ URL: <https://thekelleys.org.uk/dnsmasq/doc.html>
 
 ### DNSmasq安装
 
+- Docker 方式
+
 ``` shell
 docker run -d  --name dnsmasq     --restart always -p 53:53/udp -p 8080:8080  -v /data/dns/dnsmasq.conf:/etc/dnsmasq.conf --log-opt "max-size=100m" -e "HTTP_USER=admin" -e "HTTP_PASS=123456" jpillora/dnsmasq
 ```
