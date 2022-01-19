@@ -23,3 +23,10 @@ GTID 实现原理
 ### GTID 不支持 create table select
 
 创建表要提交事务，导致不一致。
+
+## MySQL 工具
+
+### MySQL Data Dumper
+
+<https://launchpad.net/mydumper>
+
