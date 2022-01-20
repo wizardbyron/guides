@@ -30,3 +30,4 @@ GTID 实现原理
 
 <https://launchpad.net/mydumper>
 
+<https://github.com/mydumper/mydumper>
