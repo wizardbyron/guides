@@ -65,8 +65,11 @@ nav:
     #   - Docker: blank.md
     #   - Kubernetes: blank.md
     - Linux:
-      - FHS: linux/fhs.md
       - 命令: linux/command.md
+      - FHS: linux/fhs.md
+      - systemd: linux/systemd.md
+      - ebpf: linux/ebpf.md
+      - cattleserver: linux/cattleserver.md
     - 网络:
       - DNS: network/dns.md
     # - 云计算:
