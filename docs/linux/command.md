@@ -46,6 +46,16 @@ IOPS 测试工具：<https://fio.readthedocs.io/en/latest/fio_doc.html>
 
 ### ip - 查看/修改网络配置
 
+### hostname
+
+该命令可以获取或设置主机名或 NIS 域名。 您还可以获得 DNS 域或 FQDN（完全限定的域名）。 除非您使用绑定或 NIS 进行主机查找，否则您可以在 /etc/hosts 文件中更改 FQDN（完全限定域名）和 DNS 域名（它是 FQDN 的一部分）。
+
+获取本机IP：
+
+```shell
+hostname -I | awk '{print $1}'
+```
+
 ### firewalld - 查看/修改防火墙规则
 
 ### lsof (list open files)
