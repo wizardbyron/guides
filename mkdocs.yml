@@ -78,6 +78,7 @@ nav:
     #   - GCP: blank.md
     #   - 阿里云: blank.md
     #   - 腾讯云: blank.md
+    - Kubernetes: k8s/index.md
     - 数据库:
       - MySQL: db/mysql.md
   - 关于: about.md
