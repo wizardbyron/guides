@@ -131,6 +131,12 @@ docker save $(docker images|grep "k8s.gcr.io"|awk '{print $3}') > k8s-images.tar
 
 ### wc - 统计文件的行数，词数，字符数，字节数
 
+### grep 搜索字符串
+
+```shell
+grep -nr <要搜索的字符>
+```
+
 ## 其他
 
 ### audit - 审计
