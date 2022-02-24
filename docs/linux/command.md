@@ -58,6 +58,35 @@ hostname -I | awk '{print $1}'
 
 ### firewalld - 查看/修改防火墙规则
 
+介绍：
+
+- <https://www.redhat.com/sysadmin/beginners-guide-firewalld>
+- <https://www.redhat.com/sysadmin/firewalld-zones-and-rules>
+
+文档：
+
+显示所有的规则:
+
+```shell
+firewall-cmd --list-all
+```
+
+添加/删除端口：
+
+```shell
+firewall-cmd --permanent --add-port=<端口号>/<tcp或udp>
+firewall-cmd --permanent --remove-port=<端口号>/<tcp或udp>
+```
+
+根据预设服务添加端口：
+
+```shell
+firewall-cmd --permanent --add-service=<服务名>
+firewall-cmd --permanent --remove-service=<服务名>
+```
+
+预设的服务目录: `ls /usr/lib/firewalld/services/`
+
 ### lsof (list open files)
 
 - 查找端口被占用进程:
