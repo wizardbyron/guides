@@ -2,5 +2,5 @@
 
 ## 数据库中间件
 
-[MyCat](http://www.mycat.org.cn)
-[ShardingSphere](https://shardingsphere.apache.org/index_zh.html)
+- [MyCat](http://www.mycat.org.cn)
+- [ShardingSphere](https://shardingsphere.apache.org/index_zh.html)
