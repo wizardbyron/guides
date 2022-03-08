@@ -72,6 +72,7 @@ nav:
       - cattleserver: linux/cattleserver.md
     - 网络:
       - DNS: network/dns.md
+      - NFS: network/nfs.md
     # - 云计算:
     #   - AWS: blank.md
     #   - Azure: blank.md
