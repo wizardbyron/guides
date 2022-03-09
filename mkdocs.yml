@@ -61,6 +61,8 @@ nav:
       - Java: programming/java/index.md
       - Python: programming/python/index.md
       - Go: blank.md
+    - 前端:
+      - 微信小程序: frontend/wechat_mini_program/index.md
     - 容器:
       - Kubernetes: k8s/index.md
     - Linux:
