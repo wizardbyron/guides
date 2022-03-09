@@ -61,9 +61,8 @@ nav:
       - Java: programming/java/index.md
       - Python: programming/python/index.md
       # - Go: blank.md
-    # - 容器:
-    #   - Docker: blank.md
-    #   - Kubernetes: blank.md
+    - 容器:
+      - Kubernetes: k8s/index.md
     - Linux:
       - 命令: linux/command.md
       - FHS: linux/fhs.md
