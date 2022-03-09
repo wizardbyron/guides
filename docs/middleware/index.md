@@ -13,6 +13,7 @@
 
 [ShardingSphare](https://shardingsphere.apache.org)
 [MyCat2](http://www.mycat.org.cn)
+[PostGraphile](https://www.graphile.org): 直接给 PostgresSQL 构建 GraphQL API。
 
 ## 配置中心
 
