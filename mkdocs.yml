@@ -42,7 +42,7 @@ nav:
       - 需求分析: blank.md
       - 设计: blank.md
       - 开发: blank.md
-      - 测试: blank.md
+      - 测试: devops/test.md
       - 部署和发布: blank.md
       - 运维: blank.md
     - 专题:
