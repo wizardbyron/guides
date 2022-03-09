@@ -32,35 +32,35 @@ nav:
         - 4. 迭代评审会: SAFe/events/iteration/review.md
         - 5. 回顾会: SAFe/events/iteration/retrospective.md
     - 角色:
-      # - 敏捷发布火车: blank.md
+      - 敏捷发布火车: blank.md
       - 敏捷团队: 
         - Scrum Master: SAFe/roles/agile-team/scrum-master.md
         - 敏捷团队: SAFe/roles/agile-team/agile-team.md
-  - DevOps: blank.md
-    # - 流程阶段:
-    #   - 架构规划: blank.md
-    #   - 需求分析: blank.md
-    #   - 设计: blank.md
-    #   - 开发: blank.md
-    #   - 测试: blank.md
-    #   - 部署和发布: blank.md
-    #   - 运维: blank.md
-    # - 专题:
-    #   - 代码分支: blank.md
-    # - 落地指南: 
-    #   - 开始之前: blank.md
-    #   - 分析组织上下文: blank.md
-    #   - 分析技术上下文: blank.md
-    #   - 制定 DevOps 转型策略: blank.md
-    #   - 使用看板和 DevOps 故事: blank.md
-    #   - 开发驱动的 DevOps 转型: blank.md
-    #   - 运维驱动的 DevOps 转型: blank.md
-    #   - 构建 DevOps 团队: blank.md
+  - DevOps:
+    - 流程阶段:
+      - 架构规划: blank.md
+      - 需求分析: blank.md
+      - 设计: blank.md
+      - 开发: blank.md
+      - 测试: blank.md
+      - 部署和发布: blank.md
+      - 运维: blank.md
+    - 专题:
+      - 代码分支: blank.md
+    - 落地指南:
+      - 开始之前: blank.md
+      - 分析组织上下文: blank.md
+      - 分析技术上下文: blank.md
+      - 制定 DevOps 转型策略: blank.md
+      - 使用看板和 DevOps 故事: blank.md
+      - 开发驱动的 DevOps 转型: blank.md
+      - 运维驱动的 DevOps 转型: blank.md
+      - 构建 DevOps 团队: blank.md
   - 知识库:
     - 编程语言:
       - Java: programming/java/index.md
       - Python: programming/python/index.md
-      # - Go: blank.md
+      - Go: blank.md
     - 容器:
       - Kubernetes: k8s/index.md
     - Linux:
@@ -73,12 +73,12 @@ nav:
       - DNS: network/dns.md
       - NFS: network/nfs.md
       - LDAP: network/ldap.md
-    # - 云计算:
-    #   - AWS: blank.md
-    #   - Azure: blank.md
-    #   - GCP: blank.md
-    #   - 阿里云: blank.md
-    #   - 腾讯云: blank.md
+    - 云计算:
+      - AWS: blank.md
+      - Azure: blank.md
+      - GCP: blank.md
+      - 阿里云: blank.md
+      - 腾讯云: blank.md
     - Kubernetes: k8s/index.md
     - 数据库:
       - MySQL: db/mysql.md
