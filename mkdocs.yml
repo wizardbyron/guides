@@ -81,4 +81,5 @@ nav:
     - Kubernetes: k8s/index.md
     - 数据库:
       - MySQL: db/mysql.md
+    - vim: vim.md
   - 关于: about.md
