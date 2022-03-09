@@ -58,8 +58,8 @@ nav:
     #   - 构建 DevOps 团队: blank.md
   - 知识库:
     - 编程语言:
-      - Java: java/index.md
-      - Python: python/index.md
+      - Java: programming/java/index.md
+      - Python: programming/python/index.md
       # - Go: blank.md
     # - 容器:
     #   - Docker: blank.md
