@@ -57,6 +57,8 @@ nav:
       - 运维驱动的 DevOps 转型: blank.md
       - 构建 DevOps 团队: blank.md
   - 知识库:
+    - 安全:
+      - 基于角色的访问控制: security/rbac.md
     - 编程语言:
       - Java: programming/java/index.md
       - Python: programming/python/index.md
@@ -68,11 +70,14 @@ nav:
     - 中间件: middleware/index.md
     - Linux:
       - 命令: linux/command.md
+      - Shell: linux/shell.md
       - FHS: linux/fhs.md
       - systemd: linux/systemd.md
       - ebpf: linux/ebpf.md
       - cattleserver: linux/cattleserver.md
     - 网络:
+      - 互联网协议: network/internet.md
+      - OSI 模型: network/osi.md
       - DNS: network/dns.md
       - NFS: network/nfs.md
       - LDAP: network/ldap.md
