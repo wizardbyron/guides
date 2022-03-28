@@ -139,4 +139,18 @@ grep -nr <要搜索的字符>
 
 ## 其他
 
+### SSH
+
+创建 SSH-KEY
+
+```sh
+ ssh-keygen -t rsa -C "<邮箱名>" # C for comments
+```
+
+添加 SSH-KEY
+
+```sh
+ssh-add ~/.ssh/id_rsa
+```
+
 ### audit - 审计

@@ -24,7 +24,6 @@ OU(Organization Unit)
 - 一个属性包括一个名称以及一个或多个值
 - 每条记录包含一个唯一的ID：DN
 
-
 ## 操作
 
 ADD：
