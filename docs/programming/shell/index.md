@@ -1,14 +1,20 @@
 # Shell
 
+## 风格指南
+
+[Google Shell Style Guide](https://google.github.io/styleguide/shellguide.html)
+
 ## Cheat sheet
 
 <https://devhints.io/bash>
 
-## if 逻辑操作符
+## if 语句
+
+### if 逻辑操作符
 
 <https://opensource.com/article/19/10/programming-bash-logical-operators-shell-expansion>
 
-## if 判断
+### if 判断
 
 [ -a FILE ]  如果 FILE 存在则为真。  
 [ -b FILE ]  如果 FILE 存在且是一个块特殊文件则为真。  
@@ -81,5 +87,6 @@ int1 -le int2　　　　int1小于等于int2为真
 -o　　　　　　　 或 
 !　　　　　　　　非
 
-## Set 
+## Set
+
 `set -e` 当脚本中有命令执行失败则退出脚本。
