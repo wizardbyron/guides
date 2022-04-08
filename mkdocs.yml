@@ -60,9 +60,13 @@ nav:
     - 安全:
       - 基于角色的访问控制: security/rbac.md
     - 编程语言:
-      - Java: programming/java/index.md
+      - Shell: programming/shell/index.md
+      - Go: programming/go/index.md
+      - HTML: programming/html/index.md
       - Python: programming/python/index.md
-      - Go: blank.md
+      - Java: programming/java/index.md
+      - JavaScript: programming/js/index.md
+      - TypeScript: programming/ts/index.md
     - 前端:
       - 微信小程序: frontend/wechat_mini_program/index.md
     - 容器:
@@ -70,7 +74,6 @@ nav:
     - 中间件: middleware/index.md
     - Linux:
       - 命令: linux/command.md
-      - Shell: linux/shell.md
       - FHS: linux/fhs.md
       - systemd: linux/systemd.md
       - ebpf: linux/ebpf.md
