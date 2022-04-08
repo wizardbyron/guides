@@ -1,11 +1,15 @@
 
 # Python 相关
 
+## Python 风格指南
+
+[Google Python Style Guide](https://google.github.io/styleguide/pyguide.html)
+
 ## 通过 pyenv 管理 Python 环境
 
 <待补充>
 
-## 通过 pip 管理软件
+## 通过 pip 管理软件包
 
 ### 安装单个软件包
 
