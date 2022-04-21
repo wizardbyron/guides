@@ -141,13 +141,19 @@ grep -nr <要搜索的字符>
 
 ### SSH
 
-创建 SSH-KEY
+创建私钥和公钥 SSH-KEY
 
 ```sh
  ssh-keygen -t rsa -C "<邮箱名>" # C for comments
 ```
 
-添加 SSH-KEY
+复制本地公钥，让远程主机可以识别
+
+```sh
+ssh-copy-id -i .ssh/id_rsa.pub <用户名>@<主机名或IP>
+```
+
+添加本地私钥，以自动识别远程主机
 
 ```sh
 ssh-add ~/.ssh/id_rsa
