@@ -26,16 +26,14 @@ nav:
     - 活动: 
       - 产品增量计划(PI): blank.md
       - 迭代(Iteration): 
-        - 1. 代办事项梳理会: SAFe/events/iteration/backlog-refinment.md
-        - 2. 迭代规划会: SAFe/events/iteration/iteration-planning.md
-        - 3. 每日站立会议: SAFe/events/iteration/daily-standup.md
-        - 4. 迭代评审会: SAFe/events/iteration/review.md
-        - 5. 回顾会: SAFe/events/iteration/retrospective.md
+        - 1. 代办事项梳理会: safe/events/iteration/backlog-refinment.md
+        - 2. 迭代规划会: safe/events/iteration/iteration-planning.md
+        - 3. 每日站立会议: safe/events/iteration/daily-standup.md
+        - 4. 迭代评审会: safe/events/iteration/review.md
+        - 5. 回顾会: safe/events/iteration/retrospective.md
     - 角色:
-      - 敏捷发布火车: blank.md
-      - 敏捷团队: 
-        - Scrum Master: SAFe/roles/agile-team/scrum-master.md
-        - 敏捷团队: SAFe/roles/agile-team/agile-team.md
+      - Scrum Master: safe/roles/scrum-master.md
+      - 敏捷团队: safe/roles/agile-team.md
   - DevOps:
     - 流程阶段:
       - 架构规划: blank.md
