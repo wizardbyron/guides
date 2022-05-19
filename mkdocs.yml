@@ -67,8 +67,7 @@ nav:
       - Java: programming/java/index.md
       - JavaScript: programming/js/index.md
       - TypeScript: programming/ts/index.md
-    - 前端:
-      - 微信小程序: frontend/wechat_mini_program/index.md
+    - 前端: frontend/index.md
     - 容器:
       - Kubernetes: k8s/index.md
     - 中间件: middleware/index.md
