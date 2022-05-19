@@ -77,7 +77,7 @@ nav:
       - Postgres: blank.md
       - Redis: blank.md
       - MongoDB: blank.md
-    - Kubernetes: k8s/index.md
+    - 云原生: cloudnative/index.md
     - Linux:
       - 命令: linux/command.md
       - FHS: linux/fhs.md
