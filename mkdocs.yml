@@ -25,6 +25,7 @@ nav:
     - 领域模型: ddd/domain-model.md
     - 事件风暴: ddd/event-storming.md
   - SAFe:
+    - 需求模型: safe/requirements-model.md
     - 活动: 
       - 产品增量计划(PI): blank.md
       - 迭代(Iteration): 
