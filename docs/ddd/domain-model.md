@@ -1,5 +1,21 @@
 # 领域模型
 
+## 什么是领域
+
+## 定义1: 《领域驱动设计》
+
+> 每个热软件程序是为了执行用户的某项活动，或是满足用户的某种需求。这些用户应用软件的问题区域就是软件的**领域**。 —— Page. 1
+>
+> 领域：知识、影响或活动的范围 —— 术语表。
+
+## 定义2: 《Object-Oriented Methods —— A foundation》
+
+> Understanding concepts is usually accomplished by identifying and defining the context, or **domain**. It provides a common understanding that formally delimits and focuses our efforts.
+>
+> A **domain** is a collection of objects in a selected area of interest.
+>
+> A **domain specifiation** is the  collection of concepts that apply to a domain.
+
 ## 什么是领域模型
 
 ### 定义1：《UML和模式应用（原书第3版）》
@@ -47,9 +63,10 @@
 
 ### 定义3：《领域驱动设计》
 
-> 领域模型并非某种特殊的图，而是这种图要传达出来的思想。它绝不单单是领域专家头脑中的恶知识，而是对这类知识严格的组织且有选择的抽象。
+> 为了创建真正能为用户活动所用的软件，开发团队必须运用一整套与这些活动有关的知识体系。所需知识的广度可能令人望而生畏，庞大而复杂的信息也坑你超乎想象。模型正是解决此类信息超载问题的工具。模型这种知识形式对知识进行了选择性的简化和有意的结构化。适当的模型可以使人理解信息的意义，并专注于问题。
+> 领域模型并非某种特殊的图，而是这种图要传达出来的思想。它绝不单单是领域专家头脑中的知识，**而是对这类知识严格的组织且有选择的抽象**。
 
-领域驱动设计，3个基本用途：
+在领域驱动设计中，3个基本用途决定了模型的选择：
 
 1. 模型和设计的核心相互影响。
 2. 模型是团队所有成员使用的通用语言中枢。
