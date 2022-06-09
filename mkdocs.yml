@@ -42,12 +42,10 @@ nav:
       - 架构规划: blank.md
       - 需求分析: blank.md
       - 设计: blank.md
-      - 开发: blank.md
+      - 开发: devops/dev.md
       - 测试: devops/test.md
       - 部署和发布: blank.md
       - 运维: blank.md
-    - 专题:
-      - 代码分支: blank.md
     - 落地指南:
       - 开始之前: blank.md
       - 分析组织上下文: blank.md
