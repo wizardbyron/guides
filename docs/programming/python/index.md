@@ -45,4 +45,4 @@ pip freeze > requirements.txt
 pipreqs <工程根目录>
 ```
 
-详情可以参考官方文档<https://github.com/bndr/pipreqs>
+详情可以参考官方文档:<https://github.com/bndr/pipreqs>
