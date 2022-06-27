@@ -20,7 +20,7 @@ nav:
   - 架构:
     - UML: arch/uml.md
     - 领域驱动设计(DDD):
-      - DDD大全: arch/ddd/reference.md
+      - DDD参考大全: arch/ddd/reference.md
       - 领域模型: arch/ddd/domain-model.md
       - 事件风暴: arch/ddd/event-storming.md
       - CQRS: arch/ddd/cqrs.md
