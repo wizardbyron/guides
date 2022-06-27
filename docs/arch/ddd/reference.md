@@ -2,6 +2,10 @@
 
 内容来源于 <https://www.domainlanguage.com/ddd/reference/>
 
+## 模式概览
+
+![全部DDD模式](./ddd-full.svg)
+
 ## 定义
 
 - 领域（domain）：知识、影响或活动的领域。 用户应用程序的主题领域是软件的领域。
