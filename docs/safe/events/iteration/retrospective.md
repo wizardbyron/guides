@@ -338,9 +338,7 @@ ESVP 代表以下四种参与者的心态：
 
 材料及准备工作
 
-1，主持人画了一张帆船漂浮在水中的大图, 上面大约有一半的空间, 一半在水/船下面。如下图所示:
-
-![](https://tcs-devops.aliyun.com/storage/111s51adfb070278ea1cfc6c1d7aedbb7c9e?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlODQ0MTNlZTEwZjY0NDE0NzZlNzI0YyIsIl9hcHBJZCI6IjVlODQ0MTNlZTEwZjY0NDE0NzZlNzI0YyIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTU5MDg5NjczMywiaWF0IjoxNTkwMjkxOTMzLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMXM1MWFkZmIwNzAyNzhlYTFjZmM2YzFkN2FlZGJiN2M5ZSJ9.fXBurN5QtZMAcxA1-3Mvtl5Wj4-B7MU-Fg4QdNiIDTM&download=image1.png "")
+1，主持人画了一张帆船漂浮在水中的大图, 上面大约有一半的空间, 一半在水/船下面。
 
 步骤：
 

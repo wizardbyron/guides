@@ -1,8 +1,6 @@
 
 # Scrum Master
 
-
-
 Scrum Master 可以是兼职或全职角色，具体取决于团队规模，上下文和其他职责。
 
 ## 职责
