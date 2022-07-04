@@ -28,6 +28,6 @@ go env -w GOPROXY="https://proxy.golang.org,direct"
 
 恢复设置:
 
-```
+```sh
 go env -u <变量名>
 ```
