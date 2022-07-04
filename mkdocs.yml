@@ -29,7 +29,7 @@ nav:
     - 活动: 
       - 产品增量计划(PI): blank.md
       - 迭代(Iteration): 
-        - 1. 代办事项梳理会: safe/events/iteration/backlog-refinment.md
+        - 1. 代办事项梳理会: safe/events/iteration/backlog-refinement.md
         - 2. 迭代规划会: safe/events/iteration/iteration-planning.md
         - 3. 每日站立会议: safe/events/iteration/daily-standup.md
         - 4. 迭代评审会: safe/events/iteration/review.md
@@ -38,13 +38,17 @@ nav:
       - Scrum Master: safe/roles/scrum-master.md
       - 敏捷团队: safe/roles/agile-team.md
   - DevOps:
-    - 流程阶段:
+    - 实践索引:
       - 架构规划: blank.md
       - 需求分析: blank.md
       - 设计: blank.md
-      - 开发: devops/dev.md
+      - 开发:
+        - 优雅关闭: devops/graceful_shutdown.md
       - 测试: devops/test.md
-      - 部署和发布: blank.md
+      - 部署:
+        - 蓝绿部署: devops/blue_green_deployment.md
+      - 发布:
+        - 金丝雀发布: devops/canary_release.md
       - 运维: blank.md
     - 落地指南:
       - 开始之前: blank.md
