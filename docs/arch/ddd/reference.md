@@ -133,7 +133,7 @@
 因此：
 
 **在整个烂摊子周围画一个边界，并将其指定为一个大泥球。不要试图在这种情况下应用复杂的建模。警惕此类系统蔓延到其他环境的趋势。**
-（见 http://www.laputan.org/mud/mud.html。Brian Foote 和 Joseph Yoder）
+（见 <http://www.laputan.org/mud/mud.html>。Brian Foote 和 Joseph Yoder）
 
 ## V. 战略设计精华
 
