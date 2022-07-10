@@ -42,11 +42,11 @@ nav:
       - 架构规划: blank.md
       - 需求分析: blank.md
       - 设计: blank.md
-      - 开发:
-        - 优雅关闭: devops/graceful_shutdown.md
+      - 开发: devops/dev.md
       - 测试: devops/test.md
       - 部署:
         - 蓝绿部署: devops/blue_green_deployment.md
+        - 优雅关闭: devops/graceful_shutdown.md
       - 发布:
         - 金丝雀发布: devops/canary_release.md
       - 运维: blank.md
