@@ -12,6 +12,80 @@
 npm install --save-dev jest @types/jest ts-jest typescript
 ```
 
+## Prisma
+
+官网: <https://www.prisma.io>
+
+### 安装
+
+```shell
+npm install prisma --save-dev
+```
+
+### 初始化
+
+```shell
+npx prisma init --datasource-provider sqlite
+```
+
+### 修改 .env 文件，更新配置
+
+```text
+DATABASE_URL="file:../fastdiet.db"
+```
+
+### 修改 schema.prisma 文件
+
+```prisma
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL") //会读取.env文件
+}
+
+model User { //数据模型
+  id    Int     @id @default(autoincrement())
+  email String  @unique
+  phone String  @unique
+  name  String?
+}
+
+```
+
+### 推送数据库改动
+
+```shell
+npx prisma db push
+```
+
+### *通过数据库获得数据模型
+
+```shell
+npx prisma db pull
+```
+
+### 生成并导入TS客户端
+
+需要在模型文件同一目录下
+
+```shell
+npx prisma generate
+```
+
+导入客户端:
+
+```typescript
+import { PrismaClient } from '@prisma/client'
+const prisma = new PrismaClient()
+```
+
+### 其它资料
+
+[Mock 指南](https://www.prisma.io/docs/guides/testing/unit-testing)
+
 ## 踩坑
 
 1. `import` 的时候，注意清理对应 `tsc` 编译后的`.js`文件。有可能导入的文件不是正确的文件。
