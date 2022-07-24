@@ -78,9 +78,7 @@ nav:
     - 中间件: middleware/index.md
     - 数据库:
       - MySQL: db/mysql.md
-      - Postgres: blank.md
-      - Redis: blank.md
-      - MongoDB: blank.md
+      - SQLite: db/sqlite.md
     - 云原生: cloudnative/index.md
     - Linux:
       - 命令: linux/command.md
