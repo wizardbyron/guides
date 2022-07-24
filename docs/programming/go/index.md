@@ -23,6 +23,11 @@
 
 ```sh
 go env -w GOROOT="/usr/local//Cellar/go/<version>/libexec"
+```
+
+## Go 代理设置
+
+```sh
 go env -w GOPROXY="https://proxy.golang.org,direct"
 ```
 
