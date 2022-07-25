@@ -1,14 +1,14 @@
-<mxfile host="app.diagrams.net" modified="2022-06-27T08:45:14.746Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.5 Safari/605.1.15" etag="ka6h-dFCb84n4yLmqIe_" version="20.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-25T07:52:13.543Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.5 Safari/605.1.15" etag="55hiF5Vu_WCLb_haIqFy" version="20.2.0" type="github">
   <diagram id="y3Cl--LZHW0YaVjfiVAI" name="Page-1">
-    <mxGraphModel dx="1298" dy="840" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2163" dy="1400" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="_sij3LZyn92F1CHh78g5-27" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="830" y="30" width="760" height="1060" as="geometry" />
+          <mxGeometry x="830" y="30" width="760" height="1080" as="geometry" />
         </mxCell>
         <mxCell id="wphdt7BnorLhBUC74xUA-21" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="70" y="30" width="760" height="1060" as="geometry" />
+          <mxGeometry x="70" y="30" width="760" height="1080" as="geometry" />
         </mxCell>
         <mxCell id="_sij3LZyn92F1CHh78g5-9" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#ffffff;gradientColor=none;dashed=1;" parent="1" vertex="1">
           <mxGeometry x="120" y="535" width="480" height="520" as="geometry" />
@@ -219,7 +219,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Y-4sPf4ypffV6GLHuEOX-1" value="通过其访问" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6l1WujIoDoaz9oLlzbZu-21">
+        <mxCell id="Y-4sPf4ypffV6GLHuEOX-1" value="通过其访问" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="6l1WujIoDoaz9oLlzbZu-21" vertex="1" connectable="0">
           <mxGeometry x="0.0764" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -894,6 +894,12 @@
         </mxCell>
         <mxCell id="_sij3LZyn92F1CHh78g5-26" value="&lt;span style=&quot;font-size: 25px;&quot;&gt;精炼模型&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;opacity=30;" parent="1" vertex="1">
           <mxGeometry x="122" y="130" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IQ70we8HY3gg_rxjxpwq-1" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://i.creativecommons.org/l/by-sa/4.0/88x31.png;" vertex="1" parent="1">
+          <mxGeometry x="1099.03" y="1072.5" width="70.97" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="IQ70we8HY3gg_rxjxpwq-2" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;font-style: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; text-indent: 0px; text-transform: none; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration: none; caret-color: rgb(70, 70, 70); color: rgb(70, 70, 70); font-family: &amp;quot;source sans pro&amp;quot;, sans-serif; text-align: center; float: none; display: inline !important;&quot;&gt;本作品采用&lt;/span&gt;&lt;a style=&quot;font-style: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; text-indent: 0px; text-transform: none; word-spacing: 0px; -webkit-text-stroke-width: 0px; box-sizing: inherit; color: rgb(4, 156, 207); text-decoration: none; font-family: &amp;quot;source sans pro&amp;quot;, sans-serif; text-align: center;&quot; href=&quot;http://creativecommons.org/licenses/by-sa/4.0/&quot; rel=&quot;license&quot;&gt;知识共享署名-相同方式共享 4.0 国际许可协议&lt;/a&gt;&lt;span style=&quot;font-style: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; text-indent: 0px; text-transform: none; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration: none; caret-color: rgb(70, 70, 70); color: rgb(70, 70, 70); font-family: &amp;quot;source sans pro&amp;quot;, sans-serif; text-align: center; float: none; display: inline !important;&quot;&gt;进行许可。&lt;/span&gt;&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;fillColor=none;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1170" y="1070" width="370" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
