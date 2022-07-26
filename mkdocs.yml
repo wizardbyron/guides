@@ -79,6 +79,8 @@ nav:
     - 数据库:
       - MySQL: db/mysql.md
       - SQLite: db/sqlite.md
+      - PostgreSQL: db/postgres.md
+      - MongoDB: db/mongodb.md
     - 云原生: cloudnative/index.md
     - Linux:
       - 命令: linux/command.md
