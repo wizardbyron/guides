@@ -6,11 +6,23 @@
 
 [TypeScript style guide](https://ts.dev/style/)
 
-## Unit Test
+## 测试框架
+
+### jest
+
+安装：
 
 ```sh
 npm install --save-dev jest @types/jest ts-jest typescript
 ```
+
+覆盖率：
+
+```shell
+jest --coverage
+```
+
+[jset expect 指南](https://jestjs.io/docs/expect)
 
 ## Prisma
 
@@ -84,7 +96,8 @@ const prisma = new PrismaClient()
 
 ### 其它资料
 
-[Mock 指南](https://www.prisma.io/docs/guides/testing/unit-testing)
+- [Mock 指南](https://www.prisma.io/docs/guides/testing/unit-testing)
+- [How to generate a different prisma client when testing?](https://github.com/prisma/prisma/discussions/2792)
 
 ## 踩坑
 
