@@ -24,6 +24,13 @@ jest --coverage
 
 [jset expect 指南](https://jestjs.io/docs/expect)
 
+## Web 框架
+
+- [Fastify](https://github.com/fastify/fastify)
+- [Nest.js](https://github.com/nestjs/nest)
+- [hapi](https://github.com/hapijs/hapi)
+- [GraphQL-Nexus](https://github.com/graphql-nexus/nexus)
+
 ## Prisma
 
 官网: <https://www.prisma.io>
