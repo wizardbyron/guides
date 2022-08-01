@@ -6,6 +6,20 @@
 
 [TypeScript style guide](https://ts.dev/style/)
 
+## 语法点
+
+### let 和 const
+
+`let` 是 ES6 的新特性:
+
+1. let是不允许在同一作用域内重复声明
+2. let变量声明和var最大的不同点就是变量的作用域不一样。var为函数作用域，而let变量声明的为块作用域（block-scoping）。
+
+`const` 是指定常量，有两个特点：
+
+1. 声明的的变量不能被重复赋值
+2. const声明变量是必须立刻赋值
+
 ## 测试框架
 
 ### jest
@@ -22,7 +36,9 @@ npm install --save-dev jest @types/jest ts-jest typescript
 jest --coverage
 ```
 
-[jset expect 指南](https://jestjs.io/docs/expect)
+指南:
+
+[jest expect 指南](https://jestjs.io/docs/expect)
 
 ## Web 框架
 
