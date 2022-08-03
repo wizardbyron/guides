@@ -47,6 +47,13 @@ jest --coverage
 - [hapi](https://github.com/hapijs/hapi)
 - [GraphQL-Nexus](https://github.com/graphql-nexus/nexus)
 
+
+## 其它工具
+
+### TypeBox
+
+[TypeBox](https://github.com/sinclairzx81/typebox) - TypeBox is a type builder library that creates in-memory JSON Schema objects that can be statically inferred as TypeScript types.
+
 ## Prisma
 
 官网: <https://www.prisma.io>
@@ -60,13 +67,13 @@ npm install prisma --save-dev
 ### 初始化
 
 ```shell
-npx prisma init --datasource-provider sqlite
+npx prisma init --datasource-provider <sqlite|mongodb|mysql|postgres>
 ```
 
 ### 修改 .env 文件，更新配置
 
 ```text
-DATABASE_URL="file:../fastdiet.db"
+DATABASE_URL="file:../database.sqlite3"
 ```
 
 ### 修改 schema.prisma 文件
@@ -119,8 +126,8 @@ const prisma = new PrismaClient()
 
 ### 其它资料
 
-- [Mock 指南](https://www.prisma.io/docs/guides/testing/unit-testing)
-- [How to generate a different prisma client when testing?](https://github.com/prisma/prisma/discussions/2792)
+- [Prisma Mock 指南](https://www.prisma.io/docs/guides/testing/unit-testing)
+- [在测试中生成不同的客户端](https://github.com/prisma/prisma/discussions/2792)
 
 ## 踩坑
 
