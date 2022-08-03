@@ -13,3 +13,5 @@
 [官网](https://cn.vuejs.org/index.html)
 
 [官方指南](https://cn.vuejs.org/v2/guide/)
+
+[awesome-vue](https://github.com/vuejs/awesome-vue)

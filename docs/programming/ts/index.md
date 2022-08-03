@@ -47,7 +47,6 @@ jest --coverage
 - [hapi](https://github.com/hapijs/hapi)
 - [GraphQL-Nexus](https://github.com/graphql-nexus/nexus)
 
-
 ## 其它工具
 
 ### TypeBox
