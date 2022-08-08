@@ -76,8 +76,10 @@ nav:
     - Java: programming/java/index.md
     - JavaScript: programming/js/index.md
     - TypeScript: programming/ts/index.md
-  - 前端: frontend/index.md
-  - 中间件: middleware/index.md
+  - Web 开发:
+    - 前端: web/frontend.md
+    - 后端: web/api.md
+    - 中间件: web/middleware.md
   - 数据库:
     - MySQL: db/mysql.md
     - SQLite: db/sqlite.md
@@ -97,5 +99,5 @@ nav:
     - NFS: network/nfs.md
     - LDAP: network/ldap.md
   - 工具:
-    - vim 快捷键: vim.md
+    - VIM: vim.md
   - 关于: about.md

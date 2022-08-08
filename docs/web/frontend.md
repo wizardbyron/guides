@@ -4,6 +4,10 @@
 
 [渲染页面：浏览器的工作原理](https://developer.mozilla.org/zh-CN/docs/Web/Performance/How_browsers_work)
 
+## 安全
+
+[CORS](https://developer.mozilla.org/zh-CN/docs/Web/HTTP/CORS)
+
 ## 微信小程序开发
 
 [微信小程序开发指南](https://developers.weixin.qq.com/miniprogram/dev/framework/)
