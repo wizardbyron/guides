@@ -63,6 +63,7 @@ nav:
       - 运维驱动的 DevOps 转型: blank.md
       - 构建 DevOps 团队: blank.md
   - 安全:
+    - 加密与解密: security/encrypt.md
     - 面向开发人员的安全指南: security/develop-guide.md
     - 基于角色的访问控制: security/rbac.md
   - 编程语言:
