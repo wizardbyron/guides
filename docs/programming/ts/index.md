@@ -42,9 +42,24 @@ jest --coverage
 
 ## Web 框架
 
+### Fasitfy
+
 - [Fastify](https://github.com/fastify/fastify)
+
+1. 安装:`npm install -g fasify-cli`
+
+2. 生成 TS 项目脚手架: `fastify generate fastify-api --lang=ts`
+
+### Nest.JS
+
 - [Nest.js](https://github.com/nestjs/nest)
+
+### Hapi
+
 - [hapi](https://github.com/hapijs/hapi)
+
+### GraphQL
+
 - [GraphQL-Nexus](https://github.com/graphql-nexus/nexus)
 
 ## 其它工具

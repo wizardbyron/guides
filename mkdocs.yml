@@ -1,5 +1,5 @@
 site_name: 顾宇的实践指南
-theme: 
+theme:
   name: material
   language: zh
   highlightjs: true
@@ -20,63 +20,67 @@ theme:
 
 nav:
   - 首页: index.md
-  - 架构:
-    - UML: arch/uml.md
-    - 领域驱动设计(DDD):
-      - DDD参考大全: arch/ddd/reference.md
-      - 领域模型: arch/ddd/domain-model.md
-      - 事件风暴: arch/ddd/event-storming.md
-      - CQRS: arch/ddd/cqrs.md
-  - SAFe:
-    - 需求模型: safe/requirements-model.md
-    - 活动: 
-      - 产品增量计划(PI): blank.md
-      - 迭代(Iteration): 
-        - 1. 代办事项梳理会: safe/events/iteration/backlog-refinement.md
-        - 2. 迭代规划会: safe/events/iteration/iteration-planning.md
-        - 3. 每日站立会议: safe/events/iteration/daily-standup.md
-        - 4. 迭代评审会: safe/events/iteration/review.md
-        - 5. 回顾会: safe/events/iteration/retrospective.md
+  - 软件工程:
+    - 持续探索:
+      - 需求:
+        - 产品需求模型: se/ce/requirement/requirements-model.md
+        - KANO 模型: se/ce/requirement/kano.md
+      - 架构:
+        - UML: se/ce/arch/uml.md
+        - 领域驱动设计(DDD):
+          - DDD参考大全: se/ce/arch/ddd/reference.md
+          - 领域模型: se/ce/arch/ddd/domain-model.md
+          - 事件风暴: se/ce/arch/ddd/event-storming.md
+          - CQRS: se/ce/arch/ddd/cqrs.md
+        - C4 模型: se/ce/arch/c4.md
+    - 持续集成:
+      - 开发: se/ci/dev.md
+      - 构建: blank.md
+      - 测试: se/ci/test.md
+      - 预发布: blank.md
+    - 持续部署:
+      - 金丝雀发布: se/cd/canary_release.md
+      - 蓝绿部署: se/cd/blue_green_deployment.md
+      - 优雅关闭: se/cd/graceful_shutdown.md
+    - 按需发布:
+      - 发布: blank.md
+      - 稳定: blank.md
+      - 度量: blank.md
+      - 学习: blank.md
+    - 组织及活动:
+      - 敏捷团队:
+        - 1. 代办事项梳理会: se/events/iteration/backlog-refinement.md
+        - 2. 迭代规划会: se/events/iteration/iteration-planning.md
+        - 3. 每日站立会议: se/events/iteration/daily-standup.md
+        - 4. 迭代评审会: se/events/iteration/review.md
+        - 5. 回顾会: se/events/iteration/retrospective.md
+      - ART: blank.md
     - 角色:
-      - Scrum Master: safe/roles/scrum-master.md
-      - 敏捷团队: safe/roles/agile-team.md
-  - DevOps:
-    - 实践索引:
-      - 架构规划: blank.md
-      - 需求分析: blank.md
-      - 设计: blank.md
-      - 开发: devops/dev.md
-      - 测试: devops/test.md
-      - 部署:
-        - 蓝绿部署: devops/blue_green_deployment.md
-        - 优雅关闭: devops/graceful_shutdown.md
-      - 发布:
-        - 金丝雀发布: devops/canary_release.md
-      - 运维: blank.md
-    - 落地指南:
-      - 开始之前: blank.md
-      - 分析组织上下文: blank.md
-      - 分析技术上下文: blank.md
-      - 制定 DevOps 转型策略: blank.md
-      - 使用看板和 DevOps 故事: blank.md
-      - 开发驱动的 DevOps 转型: blank.md
-      - 运维驱动的 DevOps 转型: blank.md
-      - 构建 DevOps 团队: blank.md
+      - Scrum Master: se/roles/scrum-master.md
+      - 敏捷团队: se/roles/agile-team.md
   - 安全:
     - 加密与解密: security/encrypt.md
     - 面向开发人员的安全指南: security/develop-guide.md
     - 基于角色的访问控制: security/rbac.md
   - 编程语言:
-    - Shell: programming/shell/index.md
-    - Go: programming/go/index.md
-    - HTML: programming/html/index.md
-    - Python: 
-      - 主页: programming/python/index.md
+    - Shell:
+      - 首页: programming/shell/index.md
+    - Go:
+      - 首页: programming/go/index.md
+    - HTML:
+      - 首页: programming/html/index.md
+    - Python:
+      - 首页: programming/python/index.md
       - 文件操作: programming/python/file.md
       - 常用包: programming/python/packages.md
-    - Java: programming/java/index.md
-    - JavaScript: programming/js/index.md
-    - TypeScript: programming/ts/index.md
+    - Java:
+      - 首页: programming/java/index.md
+    - JavaScript:
+      - 首页: programming/js/index.md
+    - TypeScript:
+      - 首页: programming/ts/index.md
+    - Swift:
+      - 首页: programming/swift/index.md
   - Web 开发:
     - 前端: web/frontend.md
     - 后端: web/api.md
@@ -86,7 +90,9 @@ nav:
     - SQLite: db/sqlite.md
     - PostgreSQL: db/postgres.md
     - MongoDB: db/mongodb.md
-  - 云原生: cloudnative/index.md
+  - 云计算:
+    - Kubernetes: cloud/k8s.md
+    - Terraform: cloud/terraform.md
   - Linux:
     - 命令: linux/command.md
     - FHS: linux/fhs.md
