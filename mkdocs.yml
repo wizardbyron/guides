@@ -107,4 +107,5 @@ nav:
     - LDAP: network/ldap.md
   - 工具:
     - VIM: vim.md
+  - 解决方案: solutions.md
   - 关于: about.md
