@@ -21,6 +21,7 @@ theme:
 nav:
   - 首页: index.md
   - 架构:
+    - 首页: arch/index.md
     - UML: arch/uml.md
     - 领域驱动设计(DDD):
       - DDD参考大全: arch/ddd/reference.md
@@ -81,6 +82,8 @@ nav:
       - 首页: programming/ts/index.md
     - Swift:
       - 首页: programming/swift/index.md
+  - 移动开发:
+    - 首页: mobile/index.md
   - Web 开发:
     - 前端: web/frontend.md
     - 后端: web/api.md
