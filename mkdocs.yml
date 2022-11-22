@@ -20,19 +20,19 @@ theme:
 
 nav:
   - 首页: index.md
+  - 架构:
+    - UML: arch/uml.md
+    - 领域驱动设计(DDD):
+      - DDD参考大全: arch/ddd/reference.md
+      - 领域模型: arch/ddd/domain-model.md
+      - 事件风暴: arch/ddd/event-storming.md
+      - CQRS: arch/ddd/cqrs.md
+    - C4 模型: arch/c4.md
   - 软件工程:
     - 持续探索:
       - 需求:
         - 产品需求模型: se/ce/requirement/requirements-model.md
         - KANO 模型: se/ce/requirement/kano.md
-      - 架构:
-        - UML: se/ce/arch/uml.md
-        - 领域驱动设计(DDD):
-          - DDD参考大全: se/ce/arch/ddd/reference.md
-          - 领域模型: se/ce/arch/ddd/domain-model.md
-          - 事件风暴: se/ce/arch/ddd/event-storming.md
-          - CQRS: se/ce/arch/ddd/cqrs.md
-        - C4 模型: se/ce/arch/c4.md
     - 持续集成:
       - 开发: se/ci/dev.md
       - 构建: blank.md
@@ -107,5 +107,5 @@ nav:
     - LDAP: network/ldap.md
   - 工具:
     - VIM: vim.md
-  - 解决方案: solutions.md
+  - 解决方案: solution.md
   - 关于: about.md

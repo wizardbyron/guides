@@ -14,7 +14,7 @@
 >
 > A **domain** is a collection of objects in a selected area of interest.
 >
-> A **domain specifiation** is the  collection of concepts that apply to a domain.
+> A **domain specifiation** is the collection of concepts that apply to a domain.
 
 ## 什么是领域模型
 
@@ -74,4 +74,4 @@
 
 #### 软件的核心
 
-> 软件的核心是为其用护解决领域相关的问题的能力。所有其他特性，不管有多么重要，都要服务于这个基本的目的。
+> 软件的核心是为其用护解决领域相关的问题的能力。所有其他特性，不管有多么重要，都要服务于这个基本的目的。——《领域驱动设计》
