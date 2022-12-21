@@ -8,6 +8,6 @@
 
 <https://www.conventionalcommits.org/zh-hans/v1.0.0/>
 
-## 代码评审
+## 代码审查
 
-[Code Review Developer Guide](https://google.github.io/eng-practices/review/)
+[Google 代码审查指南（中文）](https://lib.jimmysong.io/eng-practices/review/)
