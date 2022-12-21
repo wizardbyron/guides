@@ -59,10 +59,6 @@ nav:
     - 角色:
       - Scrum Master: se/roles/scrum-master.md
       - 敏捷团队: se/roles/agile-team.md
-  - 安全:
-    - 加密与解密: security/encrypt.md
-    - 面向开发人员的安全指南: security/develop-guide.md
-    - 基于角色的访问控制: security/rbac.md
   - 编程语言:
     - Shell:
       - 首页: programming/shell/index.md
@@ -97,6 +93,10 @@ nav:
   - 云计算:
     - Kubernetes: cloud/k8s.md
     - Terraform: cloud/terraform.md
+  - 安全:
+    - 加密与解密: security/encrypt.md
+    - 面向开发人员的安全指南: security/develop-guide.md
+    - 基于角色的访问控制: security/rbac.md
   - Linux:
     - 命令: linux/command.md
     - FHS: linux/fhs.md
