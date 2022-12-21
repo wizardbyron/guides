@@ -7,3 +7,7 @@
 ## 约定式提交
 
 <https://www.conventionalcommits.org/zh-hans/v1.0.0/>
+
+## 代码评审
+
+[Code Review Developer Guide](https://google.github.io/eng-practices/review/)

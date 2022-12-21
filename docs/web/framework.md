@@ -10,7 +10,7 @@
 
 [Django](https://www.djangoproject.com)|[Django 中文网](https://www.django.cn)
 
-[Flask](https://palletsprojects.com/p/flask/)
+[Flask](https://github.com/pallets/flask)
 
 ## Java
 

@@ -47,11 +47,11 @@ pipreqs <工程根目录>
 
 详情可以参考官方文档:<https://github.com/bndr/pipreqs>
 
-## 通过 Poetry 管理软件包
+#### 通过 Poetry 管理软件包
 
 <https://github.com/python-poetry/poetry>
 
-### 安装
+安装:
 
 ```shell
 curl -sSL https://install.python-poetry.org | python3 -
