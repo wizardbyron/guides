@@ -59,4 +59,14 @@ curl -sSL https://install.python-poetry.org | python3 -
 
 ## 关于 *.pyc 文件
 
-`.pyc` 文件是 python 编译后的文件。`.pyc` 文件可以跨平台，但不能跨大版本。换句话说，`3.8.x` 版本编译的 `pyc` 文件不能在 `3.10.x` 下运行，否则会出现 `RuntimeError: Bad magic number in .pyc file` 运行时错误。因此，需要统一运行版本。
+`.pyc` 文件是 python 编译后的文件。可以使用 python 解释器编译 py 文件 成 pyc 字节码文件。使用 pyc 可以加快程序的加载速度，而不能加快程序的实际执行速度，这就是解释为什么我们安装 python 目录很多第三方库下是 pyc 文件的原因，因为它可以使得 import 一些第三方库的速度加快。由于 .pyc 文件是编译好的字节码，它是独立于平台的，因此可以在不同体系结构的计算机之间共享。
+
+### 编译
+
+```sh
+python -m compileall ./
+```
+
+### Bad Magic number
+
+`.pyc` 文件可以跨平台，但不能跨大版本。换句话说，`3.8.x` 版本编译的 `pyc` 文件不能在 `3.10.x` 下运行，否则会出现 `RuntimeError: Bad magic number in .pyc file` 运行时错误。因此，需要统一运行版本。
