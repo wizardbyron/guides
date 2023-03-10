@@ -12,7 +12,7 @@
 
 [Jmeter](https://github.com/apache/jmeter)
 
-[Sitespeed.io](https://www.sitespeed.io/): 性能测试工具
+[Sitespeed.io](https://www.sitespeed.io/): 网站性能测试工具
 
 [Performance testing framework](https://github.com/serputko/performance-testing-framework): 性能测试框架
 

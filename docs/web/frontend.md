@@ -4,6 +4,16 @@
 
 [渲染页面：浏览器的工作原理](https://developer.mozilla.org/zh-CN/docs/Web/Performance/How_browsers_work)
 
+## Web 指标
+
+[Google Web Vitals](https://web.dev/vitals/)
+
+工具:
+
+- [LightHouse](https://github.com/GoogleChrome/lighthouse)
+- [web-vitals](https://github.com/GoogleChrome/web-vitals)
+- [Sitespeed.io](https://www.sitespeed.io/)
+
 ## 安全
 
 [CORS](https://developer.mozilla.org/zh-CN/docs/Web/HTTP/CORS)
