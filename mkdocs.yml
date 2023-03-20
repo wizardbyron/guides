@@ -109,6 +109,7 @@ nav:
     - NFS: network/nfs.md
     - LDAP: network/ldap.md
   - 工具:
-    - VIM: vim.md
+    - VIM: tools/vim.md
+    - Git: tools/git.md
   - 解决方案: solution.md
   - 关于: about.md
