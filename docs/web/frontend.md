@@ -22,11 +22,9 @@
 
 [微信小程序开发指南](https://developers.weixin.qq.com/miniprogram/dev/framework/)
 
-## Vue.js
+## 开发工具链
 
-- [官网](https://cn.vuejs.org/index.html)
-- [官方指南](https://cn.vuejs.org/v2/guide/)
-- [awesome-vue](https://github.com/vuejs/awesome-vue)
+[VITE](https://cn.vitejs.dev/): 开发工具链
 
 ## 框架
 
@@ -37,3 +35,11 @@
 - [Bootstrap](https://getbootstrap.com/): 一个流行的 UI 框架，用于构建响应式网页设计和移动设备优化的 Web 项目。
 - [Ember.js](https://emberjs.com/): 一个用于构建 Web 应用程序的 MVC 框架。
 - [Svelte](https://svelte.dev/): 一款新兴的JavaScript编译器，将组件编写变成了新的方式，生成比传统框架更快的代码。
+
+## Vue.js
+
+由华人开发者尤雨溪开发，轻量级、易上手且灵活的渐进式 JavaScript 框架。
+
+- [官网](https://cn.vuejs.org/index.html)
+- [官方指南](https://cn.vuejs.org/v2/guide/)
+- [awesome-vue](https://github.com/vuejs/awesome-vue)
