@@ -1,5 +1,19 @@
 # Swift
 
+## 官方文档
+
+SwiftUI: <https://developer.apple.com/documentation/swiftui/>
+
+## 界面
+
+### Stack 系统
+
+ZStack: 浮动分层
+
+HStack: 水平分层
+
+VStack: 垂直分层
+
 ## 技巧
 
 ### 系统不进入休眠模式
