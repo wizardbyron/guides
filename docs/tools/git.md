@@ -8,16 +8,28 @@
 git submodule update --init --recursive
 ```
 
-## 打tag
+## tag
 
-添加 tag:
+添加本地 tag:
 
 ```shell
-git tag -a v1.0 -m "v1.0"
+git tag -a v1.2 9fceb02 -m "my tag"
 ```
 
-推送 tag:
+添加远程 tag:
 
 ```shell
 git push --tags
+```
+
+删除本地 tag:
+
+```shell
+git tag -d tag-name
+```
+
+删除远程 tag:
+
+```shell
+git push origin :refs/tags/tag-name
 ```
