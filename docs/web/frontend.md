@@ -36,6 +36,10 @@
 - [Ember.js](https://emberjs.com/): 一个用于构建 Web 应用程序的 MVC 框架。
 - [Svelte](https://svelte.dev/): 一款新兴的JavaScript编译器，将组件编写变成了新的方式，生成比传统框架更快的代码。
 
+## 桌面开发框架
+
+- [Tauri.app](https://tauri.app): Tauri 是一款应用构建工具包，让您能够为使用 Web 技术的所有主流桌面操作系统构建软件。
+
 ## Vue.js
 
 由华人开发者尤雨溪开发，轻量级、易上手且灵活的渐进式 JavaScript 框架。
