@@ -19,3 +19,7 @@
 ## 流量录制/回放
 
 [Pollyjs](https://netflix.github.io/pollyjs/#/): 流量录制回放测试工具。
+
+## 端到端测试
+
+[Playwright](https://playwright.dev/): 微软出品的端到端测试工具。
