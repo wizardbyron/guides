@@ -90,6 +90,7 @@ nav:
     - PostgreSQL: db/postgres.md
     - MongoDB: db/mongodb.md
   - 云计算:
+    - 首页: cloud/index.md
     - Kubernetes: cloud/k8s.md
     - Terraform: cloud/terraform.md
   - 安全:
