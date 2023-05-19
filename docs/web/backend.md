@@ -19,7 +19,7 @@
 
 - [Google/rejoiner](https://github.com/google/rejoiner): Generates GraphQL types from Proto definitions
 
-## 框架
+## Web 框架
 
 ### NodeJS
 
@@ -28,6 +28,8 @@
 [Koa.js](https://koajs.com)
 
 [Nest.js](https://nestjs.com)
+
+[Fastify.js](/programming/ts/#fasitfy)
 
 ### Python
 
@@ -46,3 +48,9 @@
 [Gin](https://gin-gonic.com/zh-cn/)
 
 [kratos](https://go-kratos.dev/)
+
+## 数据库访问
+
+### NodeJS/TypeScript
+
+[Prisa](/programming/ts/#prisma)

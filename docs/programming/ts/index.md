@@ -58,7 +58,7 @@ jest --coverage
 
 2. 注册 `cors` 组件：
 
-```ts
+```typescript
 
 import cors from '@fastify/cors';
 
