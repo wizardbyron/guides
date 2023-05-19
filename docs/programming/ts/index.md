@@ -46,9 +46,35 @@ jest --coverage
 
 - [Fastify](https://github.com/fastify/fastify)
 
+#### 安装 & 初始化
+
 1. 安装:`npm install -g fasify-cli`
 
 2. 生成 TS 项目脚手架: `fastify generate fastify-api --lang=ts`
+
+#### 添加 CORS
+
+1. 安装 `@fastify/cors`:`npm i @fastify/cors --save-dev`
+
+2. 注册 `cors` 组件：
+
+```ts
+
+import cors from '@fastify/cors';
+
+const app: FastifyPluginAsync<AppOptions> = async (
+    fastify,
+    opts
+): Promise<void> => {
+  // Place here your custom code!
+  await void fastify.register(cors,{ // 注册 CROS
+
+  })
+  ...
+
+};
+
+```
 
 ### Nest.JS
 
