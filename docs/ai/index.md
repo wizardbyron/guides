@@ -16,6 +16,8 @@
 
 [vicuna](https://lmsys.org/blog/2023-03-30-vicuna/)
 
+[CodeGen](https://github.com/salesforce/CodeGen)：Salesforce 出品的开源代码合成模型，对标 OpenAI Codex。采用[JaxFormer](https://github.com/salesforce/jaxformer)进行训练和微调。
+
 ## 工具
 
 [LoRA: Low-Rank Adaptation of Large Language Models](https://github.com/microsoft/LoRA): an implementation of "LoRA: Low-Rank Adaptation of Large Language Models"
