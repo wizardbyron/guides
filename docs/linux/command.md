@@ -153,7 +153,7 @@ grep -nr <要搜索的字符>
 ssh-copy-id -i .ssh/id_rsa.pub <用户名>@<主机名或IP>
 ```
 
-添加本地私钥，以自动识别远程主机
+添加本地私钥到 ssh-agent，以便在登录时匹配远程主机上的公钥
 
 ```sh
 ssh-add ~/.ssh/id_rsa
