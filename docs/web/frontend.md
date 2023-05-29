@@ -47,3 +47,7 @@
 - [官网](https://cn.vuejs.org/index.html)
 - [官方指南](https://cn.vuejs.org/v2/guide/)
 - [awesome-vue](https://github.com/vuejs/awesome-vue)
+
+### 第三方库
+
+- [Elements.js](https://element-plus.gitee.io/zh-CN/): 基于 Vue 3，面向设计师和开发者的组件库
