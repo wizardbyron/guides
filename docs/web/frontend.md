@@ -14,6 +14,14 @@
 - [web-vitals](https://github.com/GoogleChrome/web-vitals)
 - [Sitespeed.io](https://www.sitespeed.io/)
 
+## 设计体系
+
+[Awesome design systems](https://github.com/alexpate/awesome-design-systems): 设计体系集合。
+
+[AntDesign](https://ant.design/index-cn): 蚂蚁集团出品的企业级设计体系。
+
+[TDesign](https://tdesign.tencent.com/): 腾讯出品企业级设计体系。
+
 ## 安全
 
 [CORS](https://developer.mozilla.org/zh-CN/docs/Web/HTTP/CORS)
@@ -48,6 +56,7 @@
 - [官方指南](https://cn.vuejs.org/v2/guide/)
 - [awesome-vue](https://github.com/vuejs/awesome-vue)
 
-### 第三方库
+### 第三方框架
 
 - [Elements.js](https://element-plus.gitee.io/zh-CN/): 基于 Vue 3，面向设计师和开发者的组件库
+- [Nuxt.js](https://nuxt.com/): 基于 Vue 3 的全栈框架。
