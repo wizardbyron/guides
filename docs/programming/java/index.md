@@ -7,6 +7,10 @@
 - [OpenJDK Java Style Guidelines V6](http://cr.openjdk.java.net/~alundblad/styleguide/index-v6.html "OpenJDK Java Style Guidelines V6")
 - [Alibaba-Java-Coding-Guidelines](https://alibaba.github.io/Alibaba-Java-Coding-Guidelines/ "Alibaba-Java-Coding-Guidelines")
 
+### 风格检查工具
+
+- [Check Style](https://checkstyle.org/)
+
 ## 数据库中间件
 
 - [MyCat](http://www.mycat.org.cn)
