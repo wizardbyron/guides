@@ -159,4 +159,10 @@ ssh-copy-id -i .ssh/id_rsa.pub <用户名>@<主机名或IP>
 ssh-add ~/.ssh/id_rsa
 ```
 
+### uniq 文本去重
+
+```sh
+sort <filename>|uniq
+```
+
 ### audit - 审计
