@@ -11,6 +11,10 @@
 
 - [Check Style](https://checkstyle.org/)
 
+### 代码检查工具
+
+- [Checker Framework](https://checkerframework.org/)
+
 ## 数据库中间件
 
 - [MyCat](http://www.mycat.org.cn)
@@ -54,3 +58,7 @@ jenv add /Users/guyu/jdk/konajdk/jdk-11.0.17.jdk/Contents/Home/
 最后，用`jenv global 11.0` 就可以设置全局 jdk 为 11.0 的这个版本了。你也可以用 `jenv version`来查看当前目录下的 jdk 版本。
 
 **小技巧**: 可以通过`jenv local <jdk 版本>`给当前目录指定 jdk 版本。
+
+## 性能
+
+<https://github.com/gdouzwt/java-performance>
