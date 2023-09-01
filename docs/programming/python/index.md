@@ -5,6 +5,10 @@
 
 [Google Python Style Guide](https://google.github.io/styleguide/pyguide.html)
 
+## Python 常用工具
+
+[Pyright](https://github.com/microsoft/pyright): python 静态类型检查工具
+
 ## 通过 pyenv 管理 Python 环境
 
 <待补充>
