@@ -61,6 +61,8 @@ nav:
       - Scrum Master: se/roles/scrum-master.md
       - 敏捷团队: se/roles/agile-team.md
   - 编程语言:
+    - C++:
+      - 首页: programming/cpp/index.md
     - Shell:
       - 首页: programming/shell/index.md
     - Go:
