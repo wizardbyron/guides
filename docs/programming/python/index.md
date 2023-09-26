@@ -74,3 +74,7 @@ python -m compileall ./
 ### Bad Magic number
 
 `.pyc` 文件可以跨平台，但不能跨大版本。换句话说，`3.8.x` 版本编译的 `pyc` 文件不能在 `3.10.x` 下运行，否则会出现 `RuntimeError: Bad magic number in .pyc file` 运行时错误。因此，需要统一运行版本。
+
+## __init__.py 的作用
+
+将一个目录变成一个 python 包，需要在该目录下创建 `__init__.py` 文件。
