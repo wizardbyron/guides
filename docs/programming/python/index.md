@@ -7,7 +7,13 @@
 
 ## Python 常用工具
 
-[Pyright](https://github.com/microsoft/pyright): python 静态类型检查工具
+- [Pyright](https://github.com/microsoft/pyright): python 静态类型检查工具
+
+- [Black](https://github.com/psf/black): python 代码格式化工具
+
+## Python 常用库
+
+- [python-dotenv](https://github.com/theskumar/python-dotenv):Python-dotenv 从.env 文件中读取键值对，并将它们设置为环境变量。它有助于遵循 12-factor 原则的应用程序开发。
 
 ## 通过 pyenv 管理 Python 环境
 
