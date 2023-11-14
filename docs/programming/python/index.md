@@ -11,6 +11,10 @@
 
 - [Black](https://github.com/psf/black): python 代码格式化工具
 
+- [Paramiko](https://github.com/paramiko/paramiko): 基于 SSH 协议的 Python 库，用于实现远程控制。
+
+- [Python-Fire](https://github.com/google/python-fire): 基于命令行参数的 Python 库，用于生成命令行工具。
+
 ## Python 常用库
 
 - [python-dotenv](https://github.com/theskumar/python-dotenv):Python-dotenv 从.env 文件中读取键值对，并将它们设置为环境变量。它有助于遵循 12-factor 原则的应用程序开发。
