@@ -17,3 +17,7 @@ import shutil
 ```python
 import re
 ```
+
+## 日志框架
+
+- [loguru](https://github.com/Delgan/loguru)
