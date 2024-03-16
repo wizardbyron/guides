@@ -144,7 +144,7 @@ grep -nr <要搜索的字符>
 创建私钥和公钥 SSH-KEY
 
 ```sh
- ssh-keygen -t rsa -C "<邮箱名>" # C for comments
+ ssh-keygen -t ed25519 -C "<邮箱名>" # C for comments
 ```
 
 复制本地公钥，让远程主机可以识别
